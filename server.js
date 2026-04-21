@@ -61,7 +61,7 @@ app.post('/api/ai', async (req, res) => {
 
     const buffer = Buffer.from(fileData, 'base64');
     const pdfData = await pdf(buffer);
-    const truncatedText = pdfData.text.split(/\s+/).slice(0, 3000).join(" ");
+    const truncatedText = pdfData.text.split(/\s+/).slice(0, 1000).join(" ");
 
     const isHindi = language === 'Hindi';
     console.log(`🌐 Language requested: ${language}, isHindi: ${isHindi}`);
@@ -153,7 +153,7 @@ app.post('/api/ai/flashcards', async (req, res) => {
     const { fileData, language } = req.body;
     const buffer = Buffer.from(fileData, 'base64');
     const pdfData = await pdf(buffer);
-    const truncatedText = pdfData.text.split(/\s+/).slice(0, 3000).join(" ");
+    const truncatedText = pdfData.text.split(/\s+/).slice(0, 1000).join(" ");
 
     const isHindi = language === 'Hindi';
 
