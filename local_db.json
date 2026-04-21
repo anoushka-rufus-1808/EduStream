@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1775235419624",
+      "email": "ANOUSHKARUFUS1808@GMAIL.COM",
+      "password": "$2b$10$y4AWyX70uGeMZqAW6EzrOu0UOg3jDwjG3i8.Os1KAylYoIUopuFV2",
+      "history": [
+        {
+          "id": "1776780761842",
+          "topic": "विषय एक मॉडल सत्यापन",
+          "filename": "validation.pdf",
+          "date": "21/4/2026"
+        },
+        {
+          "id": "1776780783136",
+          "topic": "Time Series Analysis",
+          "filename": "validation.pdf",
+          "date": "21/4/2026"
+        },
+        {
+          "id": "1776780801768",
+          "topic": "CrisisLens Model Refining",
+          "filename": "dashboard.pdf",
+          "date": "21/4/2026"
+        },
+        {
+          "id": "1776780886478",
+          "topic": "विषय एक जोखिम प्रबंधन",
+          "filename": "dashboard.pdf",
+          "date": "21/4/2026"
+        },
+        {
+          "id": "1776781338136",
+          "topic": "data quality improvement",
+          "filename": "crossque.pdf",
+          "date": "21/4/2026"
+        }
+      ],
+      "recommendations": [
+        "data quality improvement",
+        "model refinement",
+        "crisis scenario planning"
+      ]
+    },
+    {
+      "id": "1776750481165",
+      "email": "anoushkarufus1808@gmail.com",
+      "password": "$2b$10$SlrgD2dR5x5ZfMw1dvqaLe5PQl6vVO1ik6gll82pTG7kwy7FTbxHu",
+      "history": [],
+      "recommendations": []
+    }
+  ]
+}
