@@ -8,6 +8,7 @@ import jwt from 'jsonwebtoken';
 import pdf from 'pdf-parse-fork';
 
 dotenv.config();
+console.log("🔑 GROQ KEY LOADED:", process.env.GROQ_API_KEY?.substring(0, 8) + "...");
 const app = express();
 app.use(express.json({ limit: '100mb' }));
 
